@@ -19,7 +19,7 @@ public class App {
     switch(opcao) {
       case 1:
         Somatorio s = new Somatorio();
-        s.Somatorio();
+        s.somatorio();
         break;
       case 2:
         Contagem c = new Contagem();
@@ -48,3 +48,4 @@ public class App {
     prompt.close();
   }
 }    
+
